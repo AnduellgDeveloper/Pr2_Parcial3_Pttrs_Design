@@ -1,6 +1,6 @@
-package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.decorator;
+package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorator;
 
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.service.ILunch;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.service.ILunch;
 
 public class RiceDecorator extends LunchDecorator {
 

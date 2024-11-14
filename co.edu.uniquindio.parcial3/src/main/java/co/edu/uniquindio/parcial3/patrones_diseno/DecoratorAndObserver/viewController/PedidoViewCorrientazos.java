@@ -1,7 +1,7 @@
 package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.viewController;
 
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.model.KitchenObserver;
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.service.IObserver;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.model.KitchenObserver;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.service.IObserver;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
