@@ -16,9 +16,9 @@ public class MenuViewController {
         private KitchenObserver kitchen;
 
         @FXML
-        private Button addOrder;
+        private Button btnAddOrder;
         @FXML
-        private Button calculate;
+        private Button btnCancellOrder;
         @FXML
         private CheckBox chkBean;
         @FXML

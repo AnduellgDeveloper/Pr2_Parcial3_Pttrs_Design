@@ -31,6 +31,8 @@
       <Text fx:id="txtCost" layoutX="304.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$" wrappingWidth="92.0" />
       <Text fx:id="txtCost1" layoutX="402.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="37.46875" />
       <Text fx:id="txtUtils" layoutX="305.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="102.0" />
-      <Button fx:id="calculate" layoutX="164.0" layoutY="396.0" mnemonicParsing="false" onAction="#onCalculate" style="-fx-background-radius: 50;" text="Calcular Costo" />
+      <Button fx:id="calculate" layoutX="78.0" layoutY="392.0" mnemonicParsing="false" onAction="#onCalculate" style="-fx-background-radius: 50;" text="Calcular Costo" />
+      <Button fx:id="btnAddOrder" layoutX="184.0" layoutY="392.0" mnemonicParsing="false" onAction="#onAddOrder" style="-fx-background-radius: 50;" text="Añadir Orden" />
+      <Button fx:id="btnCancellOrder" layoutX="121.0" layoutY="442.0" mnemonicParsing="false" onAction="#onCancellOrder" style="-fx-background-radius: 50;" text="Cancelar Orden" />
    </children>
 </AnchorPane>
