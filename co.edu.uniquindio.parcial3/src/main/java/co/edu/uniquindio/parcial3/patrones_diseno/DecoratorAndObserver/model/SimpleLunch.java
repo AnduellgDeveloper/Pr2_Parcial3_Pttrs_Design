@@ -1,6 +1,6 @@
-package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.model;
+package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.model;
 
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.service.ILunch;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.service.ILunch;
 
 public class SimpleLunch implements ILunch {
 

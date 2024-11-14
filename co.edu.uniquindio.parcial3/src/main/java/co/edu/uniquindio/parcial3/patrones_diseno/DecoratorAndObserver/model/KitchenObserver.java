@@ -1,6 +1,6 @@
-package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.model;
+package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.model;
 
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.service.IObserver;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.service.IObserver;
 
 import java.util.ArrayList;
 import java.util.List;

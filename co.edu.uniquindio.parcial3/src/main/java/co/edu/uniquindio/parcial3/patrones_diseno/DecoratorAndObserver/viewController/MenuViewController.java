@@ -1,9 +1,9 @@
 package co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.viewController;
 
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.model.SimpleLunch;
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.decorator.*;
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.model.KitchenObserver;
-import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorators.service.ILunch;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.model.SimpleLunch;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorator.*;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.model.KitchenObserver;
+import co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.service.ILunch;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
