@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: Yellow;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.viewController.MenuViewController">
+   <children>
+      <CheckBox fx:id="chkMangoJuice" layoutX="208.0" layoutY="164.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="121.0" text="Jugo de Mango" />
+      <CheckBox fx:id="chkSoursopJuice" layoutX="207.0" layoutY="199.0" mnemonicParsing="false" text="Jugo de Guanabana" />
+      <Text layoutX="199.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Corrientazos la 25!" textAlignment="CENTER" wrappingWidth="302.68359375">
+         <font>
+            <Font name="Bilya Layered Base" size="24.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="chkRice" layoutX="74.0" layoutY="164.0" mnemonicParsing="false" text="Arroz" />
+      <CheckBox fx:id="chkBean" layoutX="74.0" layoutY="199.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="73.0" text="Frijol" />
+      <CheckBox fx:id="chkDisposables" layoutX="74.0" layoutY="322.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="231.0" text="Recipientes Desechables y Salsas" />
+      <CheckBox fx:id="chkPotatoSalad" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="231.0" text="Ensalada de Papas" />
+      <CheckBox fx:id="chkSoup" layoutX="74.0" layoutY="237.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="231.0" text="Sopa" />
+      <CheckBox fx:id="chkSalad" layoutX="350.0" layoutY="164.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="231.0" text="Ensalada del día" />
+      <Text layoutX="74.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para llevar" wrappingWidth="302.68359375">
+         <font>
+            <Font name="Bilya Layered Base" size="14.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="txtAdds" layoutX="419.0" layoutY="384.0" prefHeight="165.0" prefWidth="262.0" promptText="PEDIDO" />
+      <Text fx:id="txtCost" layoutX="304.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$" wrappingWidth="92.0" />
+      <Text fx:id="txtCost1" layoutX="402.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="37.46875" />
+      <Text fx:id="txtUtils" layoutX="305.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="102.0" />
+      <Button fx:id="calculate" layoutX="164.0" layoutY="396.0" mnemonicParsing="false" onAction="#onCalculate" style="-fx-background-radius: 50;" text="Calcular Costo" />
+   </children>
+</AnchorPane>
