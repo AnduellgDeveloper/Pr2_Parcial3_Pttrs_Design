@@ -18,6 +18,9 @@ module co.edu.uniquindio.parcial3.patrones_diseno {
     opens co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.decorator;
     exports co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.service;
     opens co.edu.uniquindio.parcial3.patrones_diseno.DecoratorAndObserver.service;
+    opens co.edu.uniquindio.parcial3.patrones_diseno.Adapter;
+    exports co.edu.uniquindio.parcial3.patrones_diseno.Adapter;
+
 
 
 }
